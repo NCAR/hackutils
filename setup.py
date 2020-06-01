@@ -11,7 +11,7 @@ with open('README.rst') as f:
     long_description = f.read()
 
 setup(
-    maintainer="NCAR XDev Team",
+    maintainer='NCAR XDev Team',
     maintainer_email='xdev@ucar.edu',
     python_requires='>=3.6',
     classifiers=[
@@ -35,10 +35,10 @@ setup(
     name='hackutils',
     packages=find_packages(include=['hackutils', 'hackutils.*']),
     url='https://github.com/NCAR/hackutils',
-      project_urls={
+    project_urls={
         'Documentation': 'https://github.com/NCAR/hackutils',
         'Source': 'https://github.com/NCAR/hackutils',
-        'Tracker': 'https://github.com/NCAR/hackutils/issues'
+        'Tracker': 'https://github.com/NCAR/hackutils/issues',
     },
     zip_safe=False,
 )
